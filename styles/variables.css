@@ -1,1 +1,48 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    /* Шрифт */
+    --font-main: 'Inter-Variable', 'Inter', sans-serif;
+    --font-accent: 'Press Start 2P', 'PressStart2P', sans-serif;
+
+    /* Толщина шрифта */
+    --font-weight-title: 700;
+    --font-weight-text: 400;
+
+    /* Градиенты */
+    --grid-x: repeating-linear-gradient(
+        to right,
+        #d3d3d3 0,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+    );
+
+    --grid-y: repeating-linear-gradient(
+        to bottom,
+        #d3d3d3 0,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+    );
+
+    --density: linear-gradient(
+        to bottom,
+        #e7e7e7 0%,
+        #e7e7e7 0.01%,
+        #1a1a1a 100%
+    );
+
+    --page-bg: var(--grid-x), var(--grid-y), var(--density);
+
+    /* Цвета */
+    --background-color: #fff;
+    --accent-color: #000;
+
+    /* Ширина блока Header*/
+    --header-width: clamp(375px, 48.7%, 700px);
+
+    --mix-blend-color: #cf0202;
+    --animation-fill-color: #FF0000;
+    --background-image-lines: #d3d3d3;
+    --background-image: #e7e7e7, #1a1a1a;
+}
