@@ -272,6 +272,8 @@
 }
 
 .button__text {
+  display: flex;
+  align-items: center;
   position: relative;
   z-index: 1;
   color: var(--accent-color);
@@ -281,7 +283,7 @@
 }
 
 .card__like-button:hover .button__text {
-  color: var(--background-color); 
+  color: var(--background-color);
 }
 
 .save-button {
@@ -300,11 +302,6 @@
 
 .icon-mobile {
   display: none;
-}
-
-.button__text {
-  display: flex;
-  align-items: center;
 }
 
 .memory__dialog[open] {
