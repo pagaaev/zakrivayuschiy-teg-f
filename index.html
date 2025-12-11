@@ -433,17 +433,16 @@
       type="button" 
       onclick="document.querySelector('.memory__dialog').showModal()"
     >
-      <svg class="icon">
-        <use class="icon-desc" href="./images/floppy.svg"></use>
-        <use class="icon-mobile" href="./images/floppy-mobile.svg"></use>
+      <svg class="icon" viewBox="0 0 29 29">
+        <use href="./images/floppy.svg#floppy"/>
       </svg>
       <span class="button__text">Сохранить на память</span>
     </button>
 
     <dialog class="memory__dialog">
-      <div class="dialog-content">
-         <svg class="icon__floppy" viewBox="0 0 39 39">
-          <use href="./images/floppy-dialog.svg"></use>
+      <div class="dialog__content">
+         <svg class="dialog__icon" viewBox="0 0 31 31">
+          <use href="./images/floppy.svg#floppy"></use>
         </svg>
 
         <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>

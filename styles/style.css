@@ -314,7 +314,7 @@
   align-items: center;
 }
 
-.dialog-content {
+.dialog__content {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -325,7 +325,7 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-.icon__floppy {
+.dialog__icon {
    width: 39px;
   height: 39px;
   flex-shrink: 0;
