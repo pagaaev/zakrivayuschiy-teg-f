@@ -41,7 +41,6 @@
     /* Ширина блока Header*/
     --header-width: clamp(375px, 48.7%, 700px);
 
-    --mix-blend-color: #cf0202;
     --animation-fill-color: #FF0000;
     --background-image-lines: #d3d3d3;
     --background-image: #e7e7e7, #1a1a1a;

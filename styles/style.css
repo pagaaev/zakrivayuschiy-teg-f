@@ -31,7 +31,7 @@
   align-items: center;
   margin: auto;
   margin-bottom: 96px;
-  border: 2px solid #000000;
+  border: 2px solid var(--accent-color);
   background-color: var(--background-color);
   text-transform: uppercase;
   font-family: var(--font-accent);
@@ -72,14 +72,14 @@
 }
 
 .card {
-  border: 2px solid #000000;
+  border: 2px solid var(--accent-color);
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
 }
 
 .card__title-bar {
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid var(--accent-color);
   padding: 4px 10px;
   background-color: #fff;
 }
