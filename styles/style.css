@@ -343,7 +343,7 @@
   width: 100%;
   max-width: 353px;
   padding: 30px;
-  border: var(--border);
+  border: 2px solid var(--accent-color);
   background-color: var(--background-color);
   justify-content: center;
   align-items: center;
