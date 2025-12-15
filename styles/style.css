@@ -105,6 +105,7 @@
   font-size: 14px;
   color: var(--accent-color);
   opacity: 0.5;
+  z-index: 999;
   mix-blend-mode: hard-light;
   text-shadow:
     -1px -1px 0 var(--background-color),
@@ -127,31 +128,31 @@
   object-fit: cover;
 }
 
-.card:nth-child(2) .card__image-wrapper img {
+.card--saturate-low img {
   filter: saturate(0.2);
 }
 
-.card:nth-child(3) .card__image-wrapper img {
+.card--saturate-high img {
   filter: saturate(3.5);
 }
 
-.card:nth-child(4) .card__image-wrapper img {
+.card--hue-30 img {
   filter: hue-rotate(30deg);
 }
 
-.card:nth-child(5) .card__image-wrapper img {
+.card--invert img {
   filter: invert(0.8);
 }
 
-.card:nth-child(6) .card__image-wrapper img {
+.card--sepia img {
   filter: sepia(0.9);
 }
 
-.card:nth-child(7) .card__image-wrapper img {
+.card--blur img {
   filter: blur(10px);
 }
 
-.card:nth-child(8) .card__image-wrapper img {
+.card--complex img {
   filter: hue-rotate(90deg) blur(2px) opacity(0.7) brightness(0.6);
 }
 
