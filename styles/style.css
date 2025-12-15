@@ -81,7 +81,7 @@
 .card__title-bar {
   border-bottom: 2px solid var(--accent-color);
   padding: 4px 10px;
-  background-color: #fff;
+  background-color: var(--background-color);
 }
 
 .card__title {
